@@ -1,0 +1,285 @@
+nav{
+    position:sticky;    
+     top: 0px; 
+    background: url(images/travel1);
+    background-size: cover; 
+    padding: 5px;
+    height: 65px;
+ 
+}
+#Home{
+    background: url(images/travel1);
+    background-size: cover;
+    font-family: calibri;
+    padding-right:15px;
+    padding-left: 15px;
+    height: 700px;
+}
+.navbar-{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+   
+}
+li a{
+    color: rgb(25, 249, 249);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 45px;
+    text-decoration: none;
+    
+}
+
+
+.login {
+   background-color: snow;
+   border-color: blue;
+   border-style: solid;
+   border-width: 1px;
+   color: blue;
+   height: 36px;
+   width: 62px;
+   border-radius: 2px;
+   cursor: pointer;border-radius: 18px;
+
+}
+.login:hover{
+    background-color: silver;
+    color: blue;
+}
+.logo{
+  width: 50px;
+  height: 65px;
+  border-radius: 12px;
+}
+span{
+    font-size: 25px;
+    color: white;
+    width: 50px;
+}
+.our{
+
+    padding: 15px;
+    margin-left:600px ;
+    width: 250px;
+    border-radius: 25px;
+    background-color: lightblue;
+    font-size: 18px;
+    animation: animate 1s ease-in-out infinite alternate;
+   
+}
+.our a{
+    text-decoration: none;
+}
+.our:hover{
+    width: 300px;
+    transition: 1;
+    background: linear-gradient(90deg,#08ff08,#5033fc,#fa94f0,#ed78b2,#03a9f4,#e2f56a);
+    background-size: 600%;
+    z-index: 1;
+    animation: blink 8s linear infinite;
+    box-shadow: 10px 10px 8px 12px silver;
+    
+
+}
+@keyframes blink{
+    from{
+        background-position: 0%;
+
+    }
+    to{
+        background-position: 600%;
+    }
+}
+#Our-Destination{
+    background:linear-gradient(50deg, blue,pink,lightblue);
+}
+.card{
+    padding:8px;
+    box-shadow: 15px 15px 20px  color-mix(in srgb, blue 50%, purple 50%);
+}
+.read{
+    margin-left: 650px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color:purple;
+    font-weight: bolder;
+    box-shadow: 10px 10px 15px cyan;
+    
+}
+.read:hover{
+    width: 300px;
+    box-shadow: 15px 15px 20px greenyellow;
+    background-color: #08ff08;
+    color: ghostwhite;
+    transform: 1s;
+}
+#About{
+    background: url(images/pink-purple-shades-wavy-background_23-2148897830.avif);
+    background-size: cover;
+
+}
+.info{
+    padding: 10px;
+    width: 250px;
+    margin-left: 500px;
+    border-radius: 18px;
+    background-color: violet;
+    color: beige;
+    font-weight: bolder;
+    box-shadow: 10px 10px 15px violet;
+}
+.info:hover{
+    width: 300px;
+    color: #08ff08;
+    background-color: yellow;
+}
+#Booking{
+    background: url(images/sky2);
+    background-size: cover; 
+}
+.learn{
+    padding: 10px;
+    width: 200px;
+    border-radius: 18px;
+    background-color: black;
+    color: red;
+    font-weight:bolder; box-shadow: 10px 10px 15px snow;
+}
+.learn:hover{
+    width: 230px;
+    background-color: red;
+    color: black;
+}
+#Contact{
+    background-color: #59D5E0 ;
+}
+.email-contact,.address-contact,.phone-contact{
+    height: 50px;
+    background-color: darkblue;
+    color: snow;
+    border-radius: 12px;
+}
+ .phone-contact svg,.address-contact svg{
+        margin-left: 35px;
+        align-self: center;
+        margin-bottom: 0px;
+}
+.email-contact svg{
+    margin-left: 10px;
+}
+.social-icon-container{
+    background-color:#59D5E0 ; 
+    text-align: center;
+    padding: 25px;
+    
+    
+}
+.social-icon {
+    margin: 20px;
+    padding: 20px;
+  
+}
+.social-icon svg:hover{
+    fill:white;
+}
+
+
+#Booking{
+    height: 800px;
+}
+.place h2{
+    color: red;
+    background-color: lightblue;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+.place{
+    margin-left: 200px;
+}
+.boo{
+    margin-left: 190px;
+    padding:10spx;
+}
+.bo{
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:orange;
+    
+
+}
+.bo a{
+ text-decoration: none;
+ color: red;
+}
+.bo:hover{
+    width:320px ;
+    background-color: #08ff08;
+}
+@media screen and (max-width:600px){
+    nav{
+        position:sticky;    
+         top: 0px; 
+        background: url(images/travel1);
+        background-size: cover; 
+        padding: 5px;
+        height: 65px;
+        width: 1450px;
+     
+    }
+    #Home{
+        background: url(images/travel1);
+        background-size: cover;
+        font-family: calibri;
+        padding-right:15px;
+        padding-left: 15px;
+        height: 700px;
+        width:1500px ;
+    }
+    .our{
+
+        padding: 15px;
+        margin-left:600px ;
+        width: 200px;
+        border-radius: 25px;
+        background-color: lightblue;
+        font-size: 18px;
+        animation: animate 1s ease-in-out infinite alternate;
+       
+    }
+    #About{
+        background: url(images/pink-purple-shades-wavy-background_23-2148897830.avif);
+        background-size: cover;
+        width: 1450px;
+    
+    }
+    #Our-Destination{
+        background:linear-gradient(50deg, blue,pink,lightblue);
+        width: 1450px;
+    }
+    #Booking{
+        background: url(images/sky2);
+        background-size: cover; 
+        width: 1450px;
+    }
+    #Contact{
+        background-color: #59D5E0 ;
+        width: 1450px;
+    }
+    body{
+        overflow: hidden;
+    }
+  
+   
+}
